@@ -10,6 +10,8 @@ or
 npm i
 ```
 
+----
+
 Inside that directory, you can run several commands:
 
   npx playwright test
