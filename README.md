@@ -17,32 +17,32 @@ npm i
 ```sh
   npx playwright test
 ```
-    Runs the end-to-end tests.
+Runs the end-to-end tests.
 
 ```sh
   npx playwright test --ui
 ```
-    Starts the interactive UI mode.
+Starts the interactive UI mode.
 
 ```sh
   npx playwright test --project=chromium
 ```
-    Runs the tests only on Desktop Chrome.
+Runs the tests only on Desktop Chrome.
 
 ```sh
   npx playwright test example
 ```
-    Runs the tests in a specific file.
+Runs the tests in a specific file.
 
 ```sh
   npx playwright test --debug
 ```
-    Runs the tests in debug mode.
+Runs the tests in debug mode.
 
 ```sh
   npx playwright codegen
 ```
-    Auto generate tests with Codegen.
+Auto generate tests with Codegen.
 
 We suggest that you begin by typing:
 
