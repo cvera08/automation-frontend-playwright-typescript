@@ -10,7 +10,7 @@ or
 npm i
 ```
 
-----
+---
 
 ### Inside that directory, you can run several commands:
 
@@ -18,37 +18,37 @@ npm i
 npx playwright test
 ```
 Runs the end-to-end tests.
-
+<br/>
 
 ```sh
 npx playwright test --ui
 ```
 Starts the interactive UI mode.
-
+<br/>
 
 ```sh
 npx playwright test --project=chromium
 ```
 Runs the tests only on Desktop Chrome.
-
+<br/>
 
 ```sh
 npx playwright test example
 ```
 Runs the tests in a specific file.
-
+<br/>
 
 ```sh
 npx playwright test --debug
 ```
 Runs the tests in debug mode.
-
+<br/>
 
 ```sh
 npx playwright codegen
 ```
 Auto generate tests with Codegen.
-
+<br/>
 
 We suggest that you begin by typing:
 
