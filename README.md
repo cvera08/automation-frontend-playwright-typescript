@@ -1,5 +1,9 @@
 # automation-frontend-playwright-typescript
 
+Base automation project to test the UI/FrontEnd of any project by using: [Playwright](https://playwright.dev/) - [TypeScript](https://www.typescriptlang.org/) - [GitHub Actions](https://github.com/features/actions).
+
+---
+
 ```sh
 npm ci
 ```
