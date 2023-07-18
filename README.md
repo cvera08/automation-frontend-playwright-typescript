@@ -19,11 +19,13 @@ npx playwright test
 ```
 Runs the end-to-end tests.
 <br/>
+<br/>
 
 ```sh
 npx playwright test --ui
 ```
 Starts the interactive UI mode.
+<br/>
 <br/>
 
 ```sh
@@ -31,11 +33,13 @@ npx playwright test --project=chromium
 ```
 Runs the tests only on Desktop Chrome.
 <br/>
+<br/>
 
 ```sh
 npx playwright test example
 ```
 Runs the tests in a specific file.
+<br/>
 <br/>
 
 ```sh
@@ -43,11 +47,13 @@ npx playwright test --debug
 ```
 Runs the tests in debug mode.
 <br/>
+<br/>
 
 ```sh
 npx playwright codegen
 ```
 Auto generate tests with Codegen.
+<br/>
 <br/>
 
 We suggest that you begin by typing:
