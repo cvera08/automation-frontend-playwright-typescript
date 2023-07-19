@@ -4,6 +4,22 @@ Base automation project to test the UI/FrontEnd of any project by using: [Playwr
 
 ---
 
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#table-of-contents)Table of contents
+- [Getting started](#getting-started)
+   - [1. Install Git locally](#1-install-git-locally)
+   - [2. Install Node locally](#2-install-node-locally)
+- [Configure this project](#configure-this-project)
+- [Quick run](#quick-run)
+- [Run tests in UI/GUI mode](#run-tests-in-uigui-mode)
+- [Run tests in Headless mode](#run-tests-in-headless-mode-with-video-output-to-see-the-recording)
+- [Miscellaneous](#miscellaneous)
+- [Primary Authors](#primary-authors)
+- [Other Contributors](#other-contributors)
+- [MIT license](#mit-license)
+- [Change Log](#change-log)
+
+___
+
 ```sh
 npm ci
 ```
