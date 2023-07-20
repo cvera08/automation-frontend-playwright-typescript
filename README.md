@@ -20,6 +20,14 @@ Base automation project to test the UI/FrontEnd of any project by using: [Playwr
 
 ___
 
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#getting-started)Getting started
+
+<details>
+
+<summary>
+
+___
+
 ```sh
 npm ci
 ```
