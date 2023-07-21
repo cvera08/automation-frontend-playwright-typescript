@@ -26,6 +26,21 @@ ___
 
 <summary>
 
+#### 1. Install Git locally
+</summary>  
+
+<br/>
+You can follow one of these links:  
+<br/>
+
+|    Option           |              Link                                                |                          Command                      |
+| ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
+| ***Windows, Linux, Mac***| https://git-scm.com/book/en/v2/Getting-Started-Installing-Git|  _use the previous link depending on your OS_        |
+| ***Homebrew***      | https://www.atlassian.com/git/tutorials/install-git         | `brew install git`                                         |
+
+</details>  
+
+
 ___
 
 ```sh
