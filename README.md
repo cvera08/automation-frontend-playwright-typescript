@@ -41,6 +41,10 @@ You can follow one of these links:
 </details>  
 
 
+<details>
+<summary>
+
+#### 2. Install Node locally</summary>  
 ___
 
 ```sh
