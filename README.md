@@ -45,6 +45,22 @@ You can follow one of these links:
 <summary>
 
 #### 2. Install Node locally</summary>  
+
+<br/>
+You can follow one of these links:  
+<br/>
+
+|    Option           |              Link                                                |                          Command                      |
+| ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
+| ***Windows, Linux, Mac***| https://nodejs.org/en/download/current                      |  _use the previous link depending on your OS_         |
+| ***Homebrew***      | https://www.atlassian.com/git/tutorials/install-git              | `brew install node`                                   |
+| ***NVM***      | https://github.com/nvm-sh/nvm                                         | `brew install nvm`                                   |
+
+Node recommended Version: **Latest**.  
+For Example, if you are using nvm, you can run:
+>nvm install node
+</details>  
+
 ___
 
 ```sh
