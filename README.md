@@ -64,29 +64,19 @@ For Example, if you are using nvm, you can run:
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#configure-this-project)Configure this project
+
+<img src="https://i.ibb.co/4RwZnmZ/image.png" alt="drawing" width="800"/>
+
 Open your console/terminal and run this: 
+
 ```sh
 cd </your/desired/project/path/>
 ```
 
 ```sh
 git clone https://github.com/cvera08/automation-frontend-playwright-typescript.git
-```
-
-<img src="https://i.ibb.co/4RwZnmZ/image.png" alt="drawing" width="800"/>
-
-```sh
 cd automation-frontend-playwright-typescript
-```
-
-```sh
-npm ci
-```
-
-or
-
-```sh
-npm i
+npm ci #or: >npm i
 ```
 
 ---
