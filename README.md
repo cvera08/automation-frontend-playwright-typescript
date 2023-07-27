@@ -83,6 +83,16 @@ ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#quick-run)Quick run
 [Please follow to this section ▼](#run-tests-in-headless-mode-with-video-output-to-see-the-recording)
+___
+
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-uigui-mode)Run tests in UI/GUI mode
+By using your console/terminal, make sure you are in the right path and run this:
+```sh
+cd </your/desired/project/path>/automation-frontend-playwright-typescript
+```
+```sh
+npx playwright test --ui
+```
 
 ---
 
