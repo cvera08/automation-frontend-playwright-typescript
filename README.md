@@ -94,6 +94,14 @@ cd </your/desired/project/path>/automation-frontend-playwright-typescript
 npx playwright test --ui
 ```
 
+<br/>
+
+After this:
+- You may be redirected to a Chromium Playwright runner,
+- Click on the green play/run button to start running your tests,
+- Or hit the play/run button on your desired specific test,
+- After you click on one or the other Playwright will start automatically the execution and after a while you will see the output results.
+
 ---
 
 ### Inside that directory, you can run several commands:
