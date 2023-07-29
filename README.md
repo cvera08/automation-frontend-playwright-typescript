@@ -102,6 +102,17 @@ After this:
 - Or hit the play/run button on your desired specific test,
 - After you click on one or the other Playwright will start automatically the execution and after a while you will see the output results.
 
+<br/>
+<br/>
+
+**Demo open/GUI mode:**  
+
+![](https://github.com/cvera08/automation-frontend-playwright-typescript/assets/28716586/0b31c735-1fb5-4747-b603-738e44f2a938)
+<br/>
+<br/>
+![](https://github.com/cvera08/automation-frontend-playwright-typescript/assets/28716586/103d3cfc-21b9-4fcc-aa37-40db88bf799a)
+
+
 ---
 
 ### Inside that directory, you can run several commands:
