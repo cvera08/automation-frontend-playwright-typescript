@@ -112,6 +112,12 @@ After this:
 <br/>
 ![](https://github.com/cvera08/automation-frontend-playwright-typescript/assets/28716586/103d3cfc-21b9-4fcc-aa37-40db88bf799a)
 
+**Troubleshooting GUI mode:**  
+
+_If you face some error you need to be sure you are in the base project folder (automation-frontend-playwright-typescript) and run 'the following command' again (make sure not to have errors or fix them according to the printed help)_.
+>npm install
+
+If it still does not work, try restarting all the involved programs (like Playwright/IDE/etc), even your computer if it is necessary and start over again.
 
 ---
 
