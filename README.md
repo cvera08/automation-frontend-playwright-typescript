@@ -119,6 +119,10 @@ _If you face some error you need to be sure you are in the base project folder (
 
 If it still does not work, try restarting all the involved programs (like Playwright/IDE/etc), even your computer if it is necessary and start over again.
 
+<sub> *// HINTS:*  
+*- If the Playwright window becomes for some reason unresponsive try to switch of the app/program and come back.*  
+*- If you click in your Playwright runner and open a new empty window, just close it and next time try switching with your TAB key instead.* </sub>
+
 ---
 
 ### Inside that directory, you can run several commands:
