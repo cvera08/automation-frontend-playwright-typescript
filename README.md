@@ -1,4 +1,4 @@
-# automation-frontend-playwright-typescript
+# automation-frontend-playwright-typescript-github-actions
 
 Base automation project to test the UI/FrontEnd of any project by using: [Playwright](https://playwright.dev/) - [TypeScript](https://www.typescriptlang.org/) - [GitHub Actions](https://github.com/features/actions).
 
@@ -74,8 +74,8 @@ cd </your/desired/project/path/>
 ```
 
 ```sh
-git clone https://github.com/cvera08/automation-frontend-playwright-typescript.git
-cd automation-frontend-playwright-typescript
+git clone https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions.git
+cd automation-frontend-playwright-typescript-github-actions
 npm ci #or: >npm i
 ```
 
@@ -88,7 +88,7 @@ ___
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-uigui-mode)Run tests in UI/GUI mode
 By using your console/terminal, make sure you are in the right path and run this:
 ```sh
-cd </your/desired/project/path>/automation-frontend-playwright-typescript
+cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
 ```
 ```sh
 npx playwright test --ui
@@ -107,14 +107,14 @@ After this:
 
 **Demo open/GUI mode:**  
 
-![](https://github.com/cvera08/automation-frontend-playwright-typescript/assets/28716586/0b31c735-1fb5-4747-b603-738e44f2a938)
+![](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/0b31c735-1fb5-4747-b603-738e44f2a938)
 <br/>
 <br/>
-![](https://github.com/cvera08/automation-frontend-playwright-typescript/assets/28716586/103d3cfc-21b9-4fcc-aa37-40db88bf799a)
+![](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/103d3cfc-21b9-4fcc-aa37-40db88bf799a)
 
 **Troubleshooting GUI mode:**  
 
-_If you face some error you need to be sure you are in the base project folder (automation-frontend-playwright-typescript) and run 'the following command' again (make sure not to have errors or fix them according to the printed help)_.
+_If you face some error you need to be sure you are in the base project folder (automation-frontend-playwright-typescript-github-actions) and run 'the following command' again (make sure not to have errors or fix them according to the printed help)_.
 >npm install
 
 If it still does not work, try restarting all the involved programs (like Playwright/IDE/etc), even your computer if it is necessary and start over again.
