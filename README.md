@@ -70,10 +70,7 @@ ___
 Open your console/terminal and run this: 
 
 ```sh
-cd </your/desired/project/path/>
-```
-
-```sh
+cd Desktop #or: >cd </your/desired/project/path/> 
 git clone https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions.git
 cd automation-frontend-playwright-typescript-github-actions
 npm ci #or: >npm i
@@ -88,9 +85,7 @@ ___
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-uigui-mode)Run tests in UI/GUI mode
 By using your console/terminal, make sure you are in the right path and run this:
 ```sh
-cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
-```
-```sh
+#if you are not already there: >cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
 npx playwright test --ui
 ```
 
