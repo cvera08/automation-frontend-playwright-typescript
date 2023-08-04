@@ -83,7 +83,7 @@ ___
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-uigui-mode)Run tests in UI/GUI mode
-By using your console/terminal, make sure you are in the right path and run this:
+By using your console/terminal, make sure you are on the right path and run this:
 ```sh
 #if you are not already there: >cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
 npx playwright test --ui
@@ -94,8 +94,8 @@ npx playwright test --ui
 After this:
 - You may be redirected to a Chromium Playwright runner,
 - Click on the green play/run button to start running your tests,
-- Or hit the play/run button on your desired specific test,
-- After you click on one or the other Playwright will start automatically the execution and after a while you will see the output results.
+   - Or hit the play/run button on your desired specific test,
+- After you click on one or the other, Playwright will start automatically the execution and after a while, you will see the output results.
 
 <br/>
 <br/>
@@ -115,7 +115,7 @@ _If you face some error you need to be sure you are in the base project folder (
 If it still does not work, try restarting all the involved programs (like Playwright/IDE/etc), even your computer if it is necessary and start over again.
 
 <sub> *// HINTS:*  
-*- If the Playwright window becomes for some reason unresponsive try to switch of the app/program and come back.*  
+*- If the Playwright window becomes unresponsive for some reason try switching to another application/program and come back.*  
 *- If you click in your Playwright runner and open a new empty window, just close it and next time try switching with your TAB key instead.* </sub>
 
 ---
@@ -160,7 +160,7 @@ Runs the tests in debug mode.
 ```sh
 npx playwright codegen
 ```
-Auto generate tests with Codegen.
+Auto-generate tests with Codegen.
 <br/>
 <br/>
 
