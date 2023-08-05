@@ -97,6 +97,13 @@ After this:
    - Or hit the play/run button on your desired specific test,
 - After you click on one or the other, Playwright will start automatically the execution and after a while, you will see the output results.
 
+<sub> *// Please remember you have the full ability to run your tests on any desired browser, like chromium, firefox, webkit. Just click on the arrow at the left of the "Filter (e.g. text, @tag)" option to see more alternatives. Chromium is the default one.*</sub>
+
+<sub>*// You may not want to use the Status (passed, failed, skipped) filter/check boxes before executing some tests, otherwise you will not see your tests anymore (since they were not executed yet).* </sub>
+
+<img width="243" alt="image" src="https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/4d111de5-0aaf-4025-bde6-0d7807e711b7">
+
+
 <br/>
 <br/>
 
