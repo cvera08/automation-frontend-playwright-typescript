@@ -1,1 +1,4 @@
 name: Call Makefile Dispatch
+
+on:
+  workflow_dispatch:
