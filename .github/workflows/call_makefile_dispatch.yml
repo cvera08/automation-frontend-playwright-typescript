@@ -2,3 +2,6 @@ name: Call Makefile Dispatch
 
 on:
   workflow_dispatch:
+
+env:
+  PW_BASE_URL:https://playwright.dev/
