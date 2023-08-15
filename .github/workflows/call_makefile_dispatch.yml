@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  no_dependendent_check:
+  no_dependendent_check: #This Job will run in parallel with the others, not sequentially
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run Makefile
-        run: make
+      # Print value of gh actions > yml > env
+      - name:  env > PW BASE URL
+        run: make BASE_URL="${PW_BASE_URL}"
