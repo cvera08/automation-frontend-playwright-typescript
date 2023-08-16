@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v3
       # Print value of gh actions > yml > env
       - name:  env > PW BASE URL
-        run: make BASE_URL="${PW_BASE_URL}"
+        run: make BASE_URL="${PW_BASE_URL}" no_dependendent_check
