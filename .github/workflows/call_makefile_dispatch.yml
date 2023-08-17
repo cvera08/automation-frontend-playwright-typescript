@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  PW_BASE_URL:https://playwright.dev/
+  PW_BASE_URL: https://playwright.dev/
 
 jobs:
   no_dependendent_check: #This Job will run in parallel with the others, not sequentially
