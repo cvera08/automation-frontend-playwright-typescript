@@ -4,3 +4,6 @@ print-something:
 
 no_dependendent_check:
 	@echo "env yml value. PACT BROKER BASE URL: $(BASE_URL)"
+
+test:
+	@echo "echo for test"
