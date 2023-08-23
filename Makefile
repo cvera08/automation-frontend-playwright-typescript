@@ -7,3 +7,7 @@ no_dependendent_check:
 
 test:
 	@echo "echo for test"
+
+can_i_deploy:
+	@echo "Using parameter before make command (GH Action->yml):"
+	@echo "Deploying using GIT BRANCH=${GIT_BRANCH}"
