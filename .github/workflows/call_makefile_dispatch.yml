@@ -7,6 +7,7 @@ env:
   PW_BASE_URL: https://playwright.dev/
 
 jobs:
+
   no_dependendent_check: #This Job will run in parallel with the others, not sequentially
     runs-on: ubuntu-latest
     steps:
@@ -14,3 +15,9 @@ jobs:
       # Print value of gh actions > yml > env
       - name:  env > PW BASE URL
         run: make BASE_URL="${PW_BASE_URL}" no_dependendent_check
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Test
+        run: GIT_BRANCH=${GITHUB_REF:11} make test
