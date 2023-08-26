@@ -10,4 +10,4 @@ test:
 
 can_i_deploy:
 	@echo "Using parameter before make command (GH Action->yml):"
-	@echo "Deploying using GIT BRANCH=${GIT_BRANCH}"
+	@echo "Deploying using GIT BRANCH = ${GIT_BRANCH}"
