@@ -31,3 +31,20 @@ jobs:
       - name: Can I deploy?
         run: GIT_BRANCH=${GITHUB_REF:11} make can_i_deploy # Extracting a substring: refs/heads/feature/branch-name > ${GITHUB_REF:11} > feature/branch-name
         # make can_i_deploy GIT_BRANCH="main" <- valid as well
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: can-i-deploy
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create .env file
+        run: |
+          echo "===== Before Creating .env file ====="
+          ls -la
+          echo "ENV_VARIABLE=value_var" > .env
+          echo "===== AFTER Creating .env file ====="
+          ls -la
+      - name: Deploy
+        run: |
+          ls -la
+          make deploy
