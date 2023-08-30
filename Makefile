@@ -14,3 +14,5 @@ can_i_deploy:
 
 no_deploy:
 	@echo "No Deploy. (Not being called)."
+
+deploy: deploy_app record_deployment
