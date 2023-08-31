@@ -16,3 +16,12 @@ no_deploy:
 	@echo "No Deploy. (Not being called)."
 
 deploy: deploy_app record_deployment
+
+#deploy_app: .env 
+#^This line is valid as well and it specifies that the deploy_app target depends on the .env file. 
+#It indicates that if the .env file is newer than the target or doesn't exist, the recipe for the deploy_app target should be executed.
+deploy_app:
+# the -n option for the echo command prevents the trailing newline
+	@echo -n "Content of .env: " && cat .env
+# Content of .env: ENV_VARIABLE=value_var
+# If you want to test it locally in mac os, please use: @printf "Content of .env: $(shell cat .env)\n"
