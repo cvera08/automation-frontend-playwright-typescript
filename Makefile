@@ -25,3 +25,6 @@ deploy_app:
 	@echo -n "Content of .env: " && cat .env
 # Content of .env: ENV_VARIABLE=value_var
 # If you want to test it locally in mac os, please use: @printf "Content of .env: $(shell cat .env)\n"
+
+record_deployment:
+	@echo "record_deployment. (same make task calling two other tasks)"
