@@ -7,6 +7,7 @@ no_dependendent_check:
 
 test:
 	@echo "echo for test"
+	npm ci
 
 can_i_deploy:
 	@echo "Using parameter before make command (GH Action->yml):"
