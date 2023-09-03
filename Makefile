@@ -8,6 +8,7 @@ no_dependendent_check:
 test:
 	@echo "echo for test"
 	npm ci
+	npx playwright install --with-deps
 
 can_i_deploy:
 	@echo "Using parameter before make command (GH Action->yml):"
