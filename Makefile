@@ -12,8 +12,8 @@ test:
 	npx playwright test
 
 can_i_deploy:
-	@echo "Using parameter before make command (GH Action->yml):"
-	@echo "Deploying using GIT BRANCH = '${GIT_BRANCH}'"
+	@echo "===== Using parameter before make command (GH Action->yml): ====="
+	@echo "===== Deploying using GIT BRANCH = '${GIT_BRANCH}' ====="
 
 no_deploy:
 	@echo "No Deploy. (Not being called)."
