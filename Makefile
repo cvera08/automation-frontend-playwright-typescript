@@ -6,7 +6,7 @@ no_dependendent_check:
 	@echo "===== env yml value. PACT BROKER BASE URL: $(BASE_URL) ====="
 
 test:
-	@echo "===== echo for test ====="
+	@echo "===== echo for test by using "${GH_BRANCH}"" branch ====="
 	npm ci
 	npx playwright install --with-deps
 	npx playwright test

@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Test
-        run: GIT_BRANCH=${GITHUB_REF:11} make test
+        run: make test GH_BRANCH=${GITHUB_REF:11}
       - uses: actions/upload-artifact@v3
         if: always()
         with:
