@@ -14,6 +14,9 @@ test:
 can_i_deploy:
 	@echo "===== Using parameter before make command (GH Action->yml): ====="
 	@echo "===== Deploying using GIT BRANCH = '${GIT_BRANCH}' ====="
+	@echo "===== Simulation if previous step ('test' task) was well I can continue with the deployment ====="
+	@echo "===== Dependency on GHA   can-i-deploy:
+    									needs: test ====="
 
 no_deploy:
 	@echo "No Deploy. (Not being called)."
