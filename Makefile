@@ -15,8 +15,8 @@ can_i_deploy:
 	@echo "===== Using parameter before make command (GH Action->yml): ====="
 	@echo "===== Deploying using GIT BRANCH = '${GIT_BRANCH}' ====="
 	@echo "===== Simulation if previous step ('test' task) was well I can continue with the deployment ====="
-	@echo "===== Dependency on GHA can-i-deploy:"
-	@echo "								needs: test ====="
+	@echo "===== Dependency on GHA can-i-deploy: \
+									needs: test ====="
 
 no_deploy:
 	@echo "No Deploy. (Not being called)."
@@ -28,9 +28,10 @@ deploy: deploy_app record_deployment
 #It indicates that if the .env file is newer than the target or doesn't exist, the recipe for the deploy_app target should be executed.
 deploy_app:
 # the -n option for the echo command prevents the trailing newline
-	@echo -n "===== Content of .env: " && cat .env && echo " ====="
+	@echo -n "===== Content of .env: "; cat .env; echo " ====="
 # Content of .env: ENV_VARIABLE=value_var
 # If you want to test it locally in mac os, please use: @printf "Content of .env: $(shell cat .env)\n"
+# @echo -n "===== Content of .env: " && cat .env ##is also valid
 
 record_deployment:
 	@echo "===== record_deployment. (same make task [deploy] calling two other tasks [deploy_app] & [record_deployment]) ====="
