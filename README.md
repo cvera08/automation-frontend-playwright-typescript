@@ -11,7 +11,7 @@ Base automation project to test the UI/FrontEnd of any project by using: [Playwr
 - [Configure this project](#configure-this-project)
 - [Quick run](#quick-run)
 - [Run tests in UI/GUI mode](#run-tests-in-uigui-mode)
-- [Run tests in Headless mode](#run-tests-in-headless-mode-with-video-output-to-see-the-recording)
+- [Run tests in Headless mode](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)
 - [Miscellaneous](#miscellaneous)
 - [Primary Authors](#primary-authors)
 - [Other Contributors](#other-contributors)
@@ -79,7 +79,7 @@ npm ci #or: >npm i
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#quick-run)Quick run
-[Please follow to this section ▼](#run-tests-in-headless-mode-with-video-output-to-see-the-recording)
+[Please follow to this section ▼](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-uigui-mode)Run tests in UI/GUI mode
@@ -126,6 +126,19 @@ If it still does not work, try restarting all the involved programs (like Playwr
 *- If you click in your Playwright runner and open a new empty window, just close it and next time try switching with your TAB key instead.* </sub>
 
 ---
+
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)Run tests in Headless mode (with option for HTML report visualization)
+
+```sh
+#if you are not already there: >cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
+npx playwright test
+```
+
+You will get something like this:  
+
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/9f7d69ca-db47-4864-993a-ae32fc1dd112)
+
+___
 
 ### Inside that directory, you can run several commands:
 
