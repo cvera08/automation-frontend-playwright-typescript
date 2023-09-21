@@ -125,7 +125,7 @@ If it still does not work, try restarting all the involved programs (like Playwr
 *- If the Playwright window becomes unresponsive for some reason try switching to another application/program and come back.*  
 *- If you click in your Playwright runner and open a new empty window, just close it and next time try switching with your TAB key instead.* </sub>
 
----
+___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)Run tests in Headless mode (with option for HTML report visualization)
 
@@ -137,6 +137,14 @@ npx playwright test
 You will get something like this:  
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/9f7d69ca-db47-4864-993a-ae32fc1dd112)
+
+___
+
+
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#miscellaneous)Miscellaneous
+
+
+N/A.
 
 ___
 
