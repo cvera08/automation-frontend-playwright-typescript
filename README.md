@@ -11,7 +11,7 @@ Base automation project to test the UI/FrontEnd of any project by using: [Playwr
 - [Configure this project](#configure-this-project)
 - [Quick run](#quick-run)
 - [Run tests in UI/GUI mode](#run-tests-in-uigui-mode)
-- [Run tests in Headless mode](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)
+- [Run tests in Headless mode](#run-tests-in-headless-mode-with-option-for-html-report-visualization)
 - [Miscellaneous](#miscellaneous)
 - [Primary Authors](#primary-authors)
 - [Other Contributors](#other-contributors)
@@ -79,7 +79,7 @@ npm ci #or: >npm i
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#quick-run)Quick run
-[Please follow to this section ▼](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)
+[Please follow to this section ▼](#run-tests-in-headless-mode-with-option-for-html-report-visualization)
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-uigui-mode)Run tests in UI/GUI mode
@@ -127,7 +127,7 @@ If it still does not work, try restarting all the involved programs (like Playwr
 
 ___
 
-## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-headless-mode-with-option-for-HTML-report-visualization)Run tests in Headless mode (with option for HTML report visualization)
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-headless-mode-with-option-for-html-report-visualization)Run tests in Headless mode (with option for html report visualization)
 
 ```sh
 #if you are not already there: >cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
