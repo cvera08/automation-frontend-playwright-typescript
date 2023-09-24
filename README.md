@@ -160,6 +160,12 @@ ___
 
 ___
 
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#other-contributors)Other Contributors
+
+
+N/A.
+
+___
 
 ### Inside that directory, you can run several commands:
 
