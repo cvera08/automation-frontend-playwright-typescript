@@ -179,6 +179,50 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ___
 
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#change-log-)Change Log
+
+Stable Builds:
+
+* Sep 25, 2023 -- v6.0.0
+  * Fail Test on Purpose.
+  * Test All Actions & Tasks.
+
+* Sep 18, 2023 -- v5.1.1
+  * Record Deployment Task.
+  * Playwright Installation Make Task.
+  * Playwright Test Make Task.
+
+* Aug 28, 2023 -- v5.0.6
+  * Environments (GHA).
+  * No Dependent Check.
+  * Test, Can i Deploy & Deploy Tasks.
+  * No Deploy Make Task.
+
+* Aug 9, 2023 -- v4.0.2
+  * Makefile.
+  * Makefile & GHA Dispatch.
+
+* Aug 7, 2023 -- v3.0.4
+  * Manual Dispatch to Run the Tests.
+
+* Jul 16, 2023 -- v3.0.3
+  * GitHub Actions.
+
+* Jul 12, 2023 -- v2.1.0
+  * Tests Demo.
+
+* Jul 9, 2023 -- v2.0.1
+  * Documentation.
+  * Playwright Runners.
+
+* Jul 8, 2023 -- v2.0.0
+  * First Tests.
+
+* Jun 30, 2023 -- v1.0.0
+  * Initial Playwright Project.
+
+___
+
 ### Inside that directory, you can run several commands:
 
 ```sh
