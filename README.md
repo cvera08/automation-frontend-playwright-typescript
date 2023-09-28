@@ -143,7 +143,10 @@ ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#additional-commands)Additional Commands
 
-### Inside that directory, you can run several commands:
+### Inside your working directory, you can run several commands:
+
+<br/>
+<br/>
 
 ```sh
 npx playwright test
