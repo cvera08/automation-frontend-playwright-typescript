@@ -146,7 +146,6 @@ ___
 Inside your working directory, you can run several commands:
 
 <br/>
-<br/>
 
 ```sh
 npx playwright test
