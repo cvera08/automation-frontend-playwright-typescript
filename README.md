@@ -37,7 +37,7 @@ You can follow one of these links:
 |    Option           |              Link                                                |                          Command                      |
 | ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
 | ***Windows, Linux, Mac***| [git-scm.com/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)|  _use the [Link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) depending on your OS_        |
-| ***Homebrew***      | https://www.atlassian.com/git/tutorials/install-git         | `brew install git`                                         |
+| ***Homebrew***      | [atlassian.com/install-git](https://www.atlassian.com/git/tutorials/install-git)         | `brew install git`                                         |
 
 </details>  
 
