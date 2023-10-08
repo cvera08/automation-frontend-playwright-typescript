@@ -53,8 +53,8 @@ You can follow one of these links:
 
 |    Option           |              Link                                                |                          Command                      |
 | ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
-| ***Windows, Linux, Mac***| [nodejs.org/download/currentt](https://nodejs.org/en/download/current ) |  _use the [Link](https://nodejs.org/en/download/current) depending on your OS_ |
-| ***Homebrew***      | https://formulae.brew.sh/formula/node                            | `brew install node`                                   |
+| ***Windows, Linux, Mac***| [nodejs.org/download/current](https://nodejs.org/en/download/current ) |  _use the [Link](https://nodejs.org/en/download/current) depending on your OS_ |
+| ***Homebrew***      | [formulae.brew.sh/formula/node](https://formulae.brew.sh/formula/node) | `brew install node`                             |
 | ***NVM***      | https://github.com/nvm-sh/nvm                                         | `brew install nvm`                                   |
 
 Node recommended Version: **Latest**.  
