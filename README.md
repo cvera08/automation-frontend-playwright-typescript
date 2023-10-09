@@ -37,7 +37,7 @@ You can follow one of these links:
 |    Option           |              Link                                                |                          Command                      |
 | ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
 | ***Windows, Linux, Mac***| [git-scm.com/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)|  _use the [Link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) depending on your OS_        |
-| ***Homebrew***      | [atlassian.com/install-git](https://www.atlassian.com/git/tutorials/install-git)         | `brew install git`                                         |
+| ***Homebrew***      | [atlassian.com/install-git](https://www.atlassian.com/git/tutorials/install-git)         | `brew install git`            |
 
 </details>  
 
@@ -55,7 +55,7 @@ You can follow one of these links:
 | ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
 | ***Windows, Linux, Mac***| [nodejs.org/download/current](https://nodejs.org/en/download/current ) |  _use the [Link](https://nodejs.org/en/download/current) depending on your OS_ |
 | ***Homebrew***      | [formulae.brew.sh/formula/node](https://formulae.brew.sh/formula/node) | `brew install node`                             |
-| ***NVM***      | https://github.com/nvm-sh/nvm                                         | `brew install nvm`                                   |
+| ***NVM***           | [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)           | `brew install nvm`                                    |
 
 Node recommended Version: **Latest**.  
 For Example, if you are using nvm, you can run:
