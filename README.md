@@ -198,7 +198,7 @@ And check out the following files:
   - ./tests-examples/demo-todo-app.spec.ts - Demo Todo App end-to-end tests
   - ./playwright.config.ts - Playwright Test configuration
 
-Visit https://playwright.dev/docs/intro for more information. ✨
+Visit [playwright.dev/docs/intro](https://playwright.dev/docs/intro) for more information. ✨
 
 Happy hacking! 🎭
 
