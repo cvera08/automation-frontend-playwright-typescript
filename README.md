@@ -130,6 +130,8 @@ ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#run-tests-in-headless-mode-with-option-for-html-report-visualization)Run tests in Headless mode (with option for html report visualization)
 
+Try running this:
+
 ```sh
 #if you are not already there: >cd </your/desired/project/path>/automation-frontend-playwright-typescript-github-actions
 npx playwright test
@@ -137,8 +139,23 @@ npx playwright test
 
 You will get something like this:  
 
-![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/9f7d69ca-db47-4864-993a-ae32fc1dd112)
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/09e2e1b6-31a2-4d5f-8f5b-81740921be1e)
+<!--![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b1a3fa6f-6d6d-4f3b-b8a2-a69b9da5fe9d)-->
 
+To open the last html report:
+
+```sh
+npx playwright show-report
+#A similar output will be displayed: Serving HTML report at http://localhost:9323. 
+##Press Ctrl+C to quit.
+```
+
+<!--![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/03728c9e-99a4-4126-946b-e0f2ddb66715)-->
+<br/>
+
+**Demo html report in headless mode:**  
+
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/83136209-e68e-4ef9-806f-aad08a7a9cc5)
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#additional-commands)Additional Commands
