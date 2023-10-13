@@ -12,6 +12,7 @@ Base automation project to test the UI/FrontEnd of any project by using: [Playwr
 - [Quick run](#quick-run)
 - [Run tests in UI/GUI mode](#run-tests-in-uigui-mode)
 - [Run tests in Headless mode](#run-tests-in-headless-mode-with-option-for-html-report-visualization)
+- [GitHub Actions Support](#github-actions-support)
 - [Additional Commands](#additional-commands)
 - [Miscellaneous](#miscellaneous)
 - [Primary Authors](#primary-authors)
@@ -156,6 +157,12 @@ npx playwright show-report
 **Demo html report in headless mode:**  
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/83136209-e68e-4ef9-806f-aad08a7a9cc5)
+___
+
+## [![](https://i.ibb.co/2kHmnLX/image.png)](#github-actions-support)GitHub Actions Support
+
+This repository has the support for ![GHA](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions) as well
+
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#additional-commands)Additional Commands
