@@ -167,11 +167,20 @@ This repository has the support for its own [GHA](https://github.com/cvera08/aut
 
 #### Run Tests with GHA
 
-You can go to this repository > Actions Tab > Playwright Tests option at the left
-or by using this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/playwright.yml)
+You can go to this repository > Actions Tab > Playwright Tests option at the left.  
+Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/playwright.yml).
 
 Once you are in the GitHub Actions for Playwright Tests you can hit the "Run workflow" button, select the desired branch to run your tests and click on the "Run workflow" green button. Your tests will automatically start to run and after a while, you may see the results for it.
 
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b1f9baec-2c81-4c02-ad69-f45218ca8ed0)
+
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/1997e544-23b1-4322-a2c2-0533d22ac097)
+
+<br/>
+
+Feel free to download the playwright html report from the main execution page:
+
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/2f1a447f-f72c-4102-a172-b0781291f500)
 
 
 #### Test, Can I Deploy?, Deploy
