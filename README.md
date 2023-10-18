@@ -170,7 +170,8 @@ This repository has the support for its own [GHA](https://github.com/cvera08/aut
 You can go to this repository > Actions Tab > Playwright Tests option at the left.  
 Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/playwright.yml).
 
-Once you are in the GitHub Actions for Playwright Tests you can hit the "Run workflow" button, select the desired branch to run your tests and click on the "Run workflow" green button. Your tests will automatically start to run and after a while, you may see the results for it.
+Once you are in the GitHub Actions for Playwright Tests you can hit the "Run workflow" button, select the desired branch to run your tests and click on the "Run workflow" green button.  
+Your tests will automatically start to run and after a while, you may see the results for it.
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b1f9baec-2c81-4c02-ad69-f45218ca8ed0)
 
@@ -185,7 +186,16 @@ Feel free to download the playwright html report from the main execution page:
 
 #### Test, Can I Deploy?, Deploy
 
-Donec congue elit nec sem finibus, vitae imperdiet nunc pharetra.
+As in the previous [Run Tests with GHA](#run-tests-with-gha) section, you can use the Actions tab > "Call Makefile Dispatch" left option.
+Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/call_makefile_dispatch.yml).
+
+Once there you can run the workflow manually (like in the previous steps) and you will be able to see one of these two scenarios:
+
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/9d288019-2e4c-4897-a08a-6b5cccd663c6)
+
+![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b2b71a0f-785e-46f0-966b-fbbcdeb3918a)
+
+For the second scenario we can see that the *deploy is being stopped* since the failing test/s 👆.
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#additional-commands)Additional Commands
