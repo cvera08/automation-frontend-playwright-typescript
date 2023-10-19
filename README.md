@@ -163,14 +163,15 @@ ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#github-actions-support)GitHub Actions Support
 
-This repository has the support for its own [GHA](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions) as well
+This repository has the support for its own [GHA](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions) as well.
 
 #### Run Tests with GHA
 
 You can go to this repository > Actions Tab > Playwright Tests option at the left.  
-Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/playwright.yml).
+Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/playwright.yml) instead.
 
 Once you are in the GitHub Actions for Playwright Tests you can hit the "Run workflow" button, select the desired branch to run your tests and click on the "Run workflow" green button.  
+
 Your tests will automatically start to run and after a while, you may see the results for it.
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b1f9baec-2c81-4c02-ad69-f45218ca8ed0)
@@ -179,15 +180,15 @@ Your tests will automatically start to run and after a while, you may see the re
 
 <br/>
 
-Feel free to download the playwright html report from the main execution page:
+Feel free to download the playwright html report from the main execution page - Artifacts option:
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/2f1a447f-f72c-4102-a172-b0781291f500)
 
 
 #### Test, Can I Deploy?, Deploy
 
-As in the previous [Run Tests with GHA](#run-tests-with-gha) section, you can use the Actions tab > "Call Makefile Dispatch" left option.
-Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/call_makefile_dispatch.yml).
+As in the previous **[Run Tests with GHA](#run-tests-with-gha)** section, you can use the "Actions" tab > "Call Makefile Dispatch" left option.
+Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/call_makefile_dispatch.yml) instead.
 
 Once there you can run the workflow manually (like in the previous steps) and you will be able to see one of these two scenarios:
 
@@ -195,7 +196,7 @@ Once there you can run the workflow manually (like in the previous steps) and yo
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b2b71a0f-785e-46f0-966b-fbbcdeb3918a)
 
-For the second scenario we can see that the *deploy is being stopped* since the failing test/s 👆.
+For the second scenario we can see that the **Deploy is being Stopped** on purpose because of the failing test/s 👆.
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#additional-commands)Additional Commands
