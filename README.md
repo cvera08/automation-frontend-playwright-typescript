@@ -170,7 +170,7 @@ This repository has the support for its own [GHA](https://github.com/cvera08/aut
 You can go to this repository > `Actions` Tab > `Playwright Tests` option at the left.  
 Or just use this direct [Link](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/workflows/playwright.yml) instead.
 
-Once you are in the GitHub Actions for Playwright Tests you can hit the `Run workflow` button, select the desired branch to run your tests (optional) and click on the `Run workflow` green button.  
+Once you are in the GitHub Actions for Playwright Tests you can hit the `Run workflow` button, select the desired branch to run your tests _(optional)_ and click on the `Run workflow` green button.  
 
 Your tests will automatically start to run and after a while, you may see the results for it.
 
@@ -184,6 +184,7 @@ Feel free to download the playwright html report from the main execution page ->
 
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/2f1a447f-f72c-4102-a172-b0781291f500)
 
+<br/>
 
 #### Test, Can I Deploy?, Deploy
 
@@ -197,6 +198,10 @@ Once there you can run the workflow manually (like in the previous steps) and yo
 ![image](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/assets/28716586/b2b71a0f-785e-46f0-966b-fbbcdeb3918a)
 
 For the second screenshot 👆 we can see that the **Deploy is being Stopped** on purpose because of the **failing** test/s.
+
+##### Source/Demo: 
+- [Success Run](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/runs/5885924316)
+- [Fail Run](https://github.com/cvera08/automation-frontend-playwright-typescript-github-actions/actions/runs/5897580821)
 ___
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#additional-commands)Additional Commands
