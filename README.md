@@ -6,8 +6,8 @@ Base automation project to test the UI/FrontEnd of any project by using: [Playwr
 
 ## [![](https://i.ibb.co/2kHmnLX/image.png)](#table-of-contents)Table of contents
 - [Getting started](#getting-started)
-   - [1. Install Git locally](#1-install-git-locally)
-   - [2. Install Node locally](#2-install-node-locally)
+   - [Install Git locally](#install-git-locally)
+   - [Install Node locally](#install-node-locally)
 - [Configure this project](#configure-this-project)
 - [Quick run](#quick-run)
 - [Run tests in UI/GUI mode](#run-tests-in-uigui-mode)
@@ -30,7 +30,7 @@ ___
 
 <summary>
 
-#### 1. Install Git locally
+#### Install Git locally
 </summary>  
 
 <br/>
@@ -48,7 +48,7 @@ You can follow one of these links:
 <details>
 <summary>
 
-#### 2. Install Node locally</summary>  
+#### Install Node locally</summary>  
 
 <br/>
 You can follow one of these links:  
